@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Message from './components/Message'
+import EventHandler from './components/EventHandler'
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <EventHandler />
     </div>
   );
 }
