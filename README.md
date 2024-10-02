@@ -24,3 +24,22 @@ Function starting with *use* are called hooks. Hooks were added to React in vers
 7. useCallback
 8. useTransition
 9. useDeferredValue
+
+## List Rendering
+### map() method
+It's commonly used to render lists of components in React.
+
+```javascript
+const newArray = array.map((element, index) => {
+  // Return transformed element
+});
+```
+
+### Key
+**Purpose:** Helps React to identify which items in a list have changed, been added, or removed.
+**Uniqueness:** Each key should be unique among sibling elements to avoid rendering issues.
+
+#### Best Practices
+**1. Use Unique Identifiers:** Preferably use a unique property from your data (like id) as the key.
+**Avoid Index as Key:** Using array indices as keys can lead to problems when items are reordered or removed.
+
