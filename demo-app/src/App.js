@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { ParentComponent } from './components/ParentComponent';
+import { Welcome } from './components/WelcomeUser';
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <Welcome />
     </div>
   );
 }
