@@ -37,9 +37,11 @@ const newArray = array.map((element, index) => {
 
 ### Key
 **Purpose:** Helps React to identify which items in a list have changed, been added, or removed.
+
 **Uniqueness:** Each key should be unique among sibling elements to avoid rendering issues.
 
 #### Best Practices
 **1. Use Unique Identifiers:** Preferably use a unique property from your data (like id) as the key.
-**Avoid Index as Key:** Using array indices as keys can lead to problems when items are reordered or removed.
+
+**2. Avoid Index as Key:** Using array indices as keys can lead to problems when items are reordered or removed.
 
