@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { NameList } from './components/NameList';
-import { Garage } from './components/Garage';
+import './components/my-style.css'
+import styles from './my-style.module.css'
+import { MyStyle } from './components/MyStyle';
 
 function App() {
   return (
     <div className="App">
-      <NameList />
-      <Garage />
+      <MyStyle />
+      <h4 className={styles.bigblue}>CSS Modules</h4>
     </div>
   );
 }

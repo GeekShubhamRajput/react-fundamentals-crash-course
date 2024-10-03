@@ -45,3 +45,7 @@ const newArray = array.map((element, index) => {
 
 **2. Avoid Index as Key:** Using array indices as keys can lead to problems when items are reordered or removed.
 
+## Styling React Using CSS
+1. Inline styling
+2. CSS stylesheets
+3. CSS Modules
